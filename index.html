@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - Profil Sekolah</title>
+    <style>
+        /* Mengatur Font dan Warna Dasar */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        /* Desain Menu Navigasi */
+        nav {
+            background-color: #1e3d59;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 15px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff6e40;
+        }
+
+        /* Desain Konten Utama (Hero Section) */
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: white; /* Mengubah background menjadi putih agar foto terlihat jelas */
+        }
+
+        .hero h1 {
+            color: #1e3d59;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            margin-top: 20px; /* Jarak atas setelah foto */
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* --- DESAIN UNTUK FOTO SEKOLAH --- */
+        .foto-sekolah {
+            width: 100%;
+            max-width: 800px; /* Lebar maksimal foto */
+            height: auto; /* Agar foto tidak gepeng */
+            border-radius: 12px; /* Membuat sudut foto melengkung */
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15); /* Memberi efek bayangan agar estetik */
+            margin-bottom: 20px; /* Jarak bawah foto ke Judul */
+        }
+
+        /* Footer Sederhana */
+        footer {
+            background-color: #1e3d59;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu Navigasi -->
+    <nav>
+    <a href="index.html">Beranda</a> 
+    <a href="identitas.html">Identitas</a> 
+    <a href="visimisi.html">Visi & Misi</a> 
+    <a href="ekstrakulikuler.html">Ekstrakulikuler</a> 
+    <a href="guru.html">Profil Guru</a> 
+    <a href="siswa.html">Jumlah Siswa</a>
+    <a href="sarana.html">Sarana</a>
+    <a href="kontak.html">Kontak</a>
+</nav>
+
+    <!-- Konten Utama Beranda -->
+    <div class="hero">
+        <!-- INI ADALAH TAG UNTUK MEMASUKKAN FOTO -->
+        <!-- Anda bisa mengganti URL di dalam src="..." dengan link foto sekolah Anda sendiri -->
+        <img src="https://images.unsplash.com/photo-1596496181848-3091d4878b24?q=80&w=1000&auto=format&fit=crop" 
+             alt="Gedung SMP Negeri 1 Indonesia" 
+             class="foto-sekolah">
+
+        <h1>Selamat Datang di Website SMP Nurul Islam</h1>
+        <p>Pusat informasi resmi mengenai profil sekolah, kegiatan akademik, fasilitas unggulan, dan perkembangan prestasi peserta didik kami.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Profil Sekolah. Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
